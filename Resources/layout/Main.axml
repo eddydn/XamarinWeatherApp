@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtCity"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:text=""
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLastUpdate"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text=""
+        android:gravity="center" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescription"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=""
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHumidity"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=""
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTime"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text=""
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCelsius"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:text=""
+        android:gravity="center" />
+</LinearLayout>
